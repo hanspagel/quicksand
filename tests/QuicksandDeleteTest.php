@@ -10,8 +10,9 @@ use Illuminate\Support\Facades\Log;
 use Models\Person;
 use Models\Place;
 use Tightenco\Quicksand\DeleteOldSoftDeletes;
+use PHPUnit\Framework\TestCase;
 
-class QuicksandDeleteTest extends PHPUnit_Framework_TestCase
+class QuicksandDeleteTest extends TestCase
 {
     private $configMock;
     private $manager;
